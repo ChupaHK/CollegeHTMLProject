@@ -1,0 +1,106 @@
+body { background-color: #3399CC;
+      color: #666666;
+	  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	  background-image: linear-gradient(to bottom, #8cacd0,  #C2E0F0, #8cacd0);
+}
+header { background-color:#508ebf ;
+         color: #f7f6f6;
+		 padding: 2px;
+		 text-align: center;
+		 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+nav { display: flex;
+	align-items: center;
+	background-color: #ccdbea; 
+	padding: 20px;
+}
+nav .Flag{
+	height: 50px;
+	width: 100px;
+	margin-right: 20px;
+}
+nav ul{
+	flex:1;
+	text-align: right;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 0 20px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #508ebf;
+	font-size: 20px;
+}
+#homebanner { height: 574px;
+	background-image: url(images/Homebanner.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+#NewsEventsbanner { height: 600px;
+	background-image: url(images/NewsEventsBanner.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+#ArtsCulturebanner { height: 574px;
+	background-image: url(images/ArtsCulturebanner.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#Recreationbanner { height: 574px;
+	background-image: url(images/Recreation.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	opacity: 50%;
+}
+
+.Mtfuji { color: #22b2ea;
+	font-size: 1.2em;
+}
+
+h1 { line-height: 200%;
+     padding-left: 0;
+     height: 72px;
+	 margin-bottom: 0;
+}
+
+h2 { color: #3399CC;
+	border: 2px solid #4c84b7;
+	background-color: #d5dbe6;
+	border-radius: 10px 10px 10px 10px;
+}
+
+dt { color: #264D64; 
+   font-weight: bold; 
+}
+
+.reminder{
+	color: #dc97a5;
+}
+
+main { padding-left: 2em;
+      padding-right: 2em;
+	  display: block;
+}
+#recTopRow{
+	text-align: center;
+}
+#artTopRow{
+	text-align: center;
+}
+#wrapper { width: 80%;
+          margin-left: auto;
+		  margin-right: auto;
+		  background-color: #f7f6f6		  ;
+		  min-width: 700px;
+		  max-width: 1100px;
+		  box-shadow: 1em 1em 1em #203f54		  ;
+}
+footer { font-size: 10px;
+         font-style: italic;
+		 text-align: center; 
+		 padding: 1em;
+}
+
